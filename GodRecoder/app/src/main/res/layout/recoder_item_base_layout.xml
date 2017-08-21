@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:descendantFocusability= "blocksDescendants"
+    android:orientation="horizontal">
+    <Button
+        android:text="标记"
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:focusable="false"
+        android:textSize="10sp"
+        android:id="@+id/makr_button" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/arm_name"
+        android:textSize="10sp"
+        android:layout_weight="6" />
+    <Button
+        android:text="删除"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:focusable="false"
+        android:textSize="10sp"
+        android:id="@+id/delete_button" />
+</LinearLayout>
